@@ -7,7 +7,7 @@ ADD  https://s3-eu-west-1.amazonaws.com/softwaremill-public/elasticmq-server-0.8
 ADD  run /elasticmq/run
 RUN  chmod +x /elasticmq/run
 
-EXPOSE 9324
+EXPOSE 80
 
 ENTRYPOINT ["/elasticmq/run"]
 CMD        []

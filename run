@@ -13,13 +13,13 @@ node-address {
     protocol = http
     // this is specifically for docker
     host = $BRIDGE
-    port = 9324
+    port = 80
     context-path = ""
 }
 
 rest-sqs {
     enabled = true
-    bind-port = 9324
+    bind-port = 80
     bind-hostname = "0.0.0.0"
     // Possible values: relaxed, strict
     sqs-limits = relaxed
