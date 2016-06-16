@@ -36,4 +36,4 @@ EOF
 	CONFIG_FILE=/elasticmq/elasticmq.conf
 fi
 
-java -jar -Dconfig.file=$CONFIG_FILE /elasticmq/elasticmq-0.0.8.jar
+java -jar -Dconfig.file=$CONFIG_FILE /elasticmq/elasticmq.jar
